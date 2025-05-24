@@ -4,13 +4,21 @@
 
 ## 项目结构
 ./
+
 ├── code/
+
 │   ├── idsum.csv                     # 第一个表数据文件（id, summary）
+
 │   ├── 视频1_summary_output.csv      # 第二个表数据文件（video_id=1）
+
 │   ├── 视频2_summary_output.csv      # 第二个表数据文件（video_id=2）
+
 │   ├── setup.py                      # 数据库初始化和数据插入脚本
+
 │   └── main.py                       # 主程序，实现问答交互
+
 ├── README.md
+
 ├── example.txt                   # 示例问题文本
 
 ## 环境依赖

@@ -54,14 +54,21 @@ python code/main.py
 确保你已正确设置DeepSeek API Key及数据库连接相关信息。
 
 三、DeepSeek API 配置说明
+
 本项目使用 OpenAI SDK 调用 DeepSeek API（兼容）
+
 你需要替换 main.py 中的 api_key 为你申请的 DeepSeek API Key
+
 使用 DeepSeek Chat 模型：model='deepseek-chat'
+
 API Base URL：https://api.deepseek.com
 
 四、常见问题
+
 请确保你的csv文件均使用utf-8进行编码。
 
 五、联系方式
+
 如有疑问，请联系bowen20041225@sina.com。
+
 本项目为北京师范大学人工智能学院2024-2025学年度春季学期数据库系统课程（党德鹏教授）大作业，组号为第一组。

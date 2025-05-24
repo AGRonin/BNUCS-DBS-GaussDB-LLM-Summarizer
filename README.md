@@ -19,10 +19,12 @@
 
 ```bash
 pip install psycopg2 openai
+```
 
 或使用conda
 ```bash
 conda install psycopg2 openai
+```
 
 ## 运行指南
 
@@ -32,6 +34,7 @@ conda install psycopg2 openai
 
 ```bash
 python code/setup.py
+```
 
 确保你已正确设置数据库连接信息，例如主机、端口、用户名、密码等。
 
@@ -44,6 +47,7 @@ python code/setup.py
     
 ```bash
 python code/main.py
+```
 
 确保你已正确设置DeepSeek API Key及数据库连接相关信息。
 
